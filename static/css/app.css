@@ -66,3 +66,14 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
+
+#home {
+  height: inherit;
+  background: no-repeat center/100% url('/static/img/brandon-griggs-wR11KBaB86U-unsplash.jpg');
+}
+
+@media screen and (min-width: 300px) {
+  #home {
+    background: no-repeat center/100% 100% url('/static/img/brandon-griggs-wR11KBaB86U-unsplash.jpg');
+  }
+}
